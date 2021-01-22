@@ -326,9 +326,7 @@ h6 .strong {
   font-family: LinetoMedium;
 }
 .about .experience {
-  background-image: url("../image/dotted.png");
-  background-repeat: repeat;
-  background-color: #f2f2ff;
+  background-color: #fff;
 }
 .about .experience .educational-set .educational-set-wrapper .educational-right {
   width: 75%;
