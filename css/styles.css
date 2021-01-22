@@ -647,6 +647,7 @@ h6 .strong {
 .about-content .about-details .connect .connect-about {
   background: var(--btnblue);
   color: #fff;
+  text-decoration: none;
   font-family: "LinetoBold";
   padding: 16px 20px;
   font-size: 18px;
