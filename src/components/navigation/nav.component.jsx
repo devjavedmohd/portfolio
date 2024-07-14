@@ -1,18 +1,22 @@
+import { Link } from 'react-router-dom';
+
+import logo from '../../assets/images/logo.svg';
+
 import './navigation.styles.scss';
 
 const Navigation = () => {
     return (
-        <nav class="container topnav">
+        <nav className="container topnav">
             <ul>
                 <li>
-                    <a href="/" class="no-pad">
-                        <img src="/images/logo.svg" alt="Mohd Javed" />
-                    </a>
+                    <Link to="/" className="no-pad">
+                        <img src={logo} alt="Mohd Javed" />
+                    </Link>
                 </li>
             </ul>
-            <ul class="flex-all-center">
-                <li><a class="active" href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
+            <ul className="flex-all-center">
+                <li><Link className="active" to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
             </ul>
         </nav>
     )

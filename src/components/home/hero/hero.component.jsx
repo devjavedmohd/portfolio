@@ -1,3 +1,4 @@
+import profilePic from '../../../assets//images/android-chrome-512x512.png'
 import './hero.component.scss'
 
 const About = () => {
@@ -22,7 +23,7 @@ const About = () => {
                 <div className="one-bg"></div>
                 <div className="two-bg"></div>
                 <div className="three-bg"></div>
-                <div className="pic"><img src="/images/android-chrome-512x512.png" alt="Mohammad Javed" /> </div>
+                <div className="pic"><img src={profilePic} alt="Mohammad Javed" /> </div>
             </div>
         </div>
     )

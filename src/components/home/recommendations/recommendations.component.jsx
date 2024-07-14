@@ -1,3 +1,6 @@
+import vikram from '../../../assets/images/vikram.jfif';
+import zinnia from '../../../assets/images/zinnia.jfif';
+
 import './recommendations.component.scss';
 
 const Recommendation = () => {
@@ -20,7 +23,7 @@ const Recommendation = () => {
                                     absolutely shines in a hectic environment. Definitely worth recommending</h6>
                                 <div className="rec-author">
                                     <div className="text-center">
-                                        <div className="rec-img"><img src="/images/vikram.jfif" alt="Zinnia Nandy" /></div>
+                                        <div className="rec-img"><img src={vikram} alt="Zinnia Nandy" /></div>
                                         <div className="rec-details">
                                             <h5>Vikram Kundu</h5>
                                             <p>DevOps Engineer</p>
@@ -38,7 +41,7 @@ const Recommendation = () => {
                                     related to front-end design and development. I wish him success in life.</h6>
                                 <div className="rec-author">
                                     <div className="text-center">
-                                        <div className="rec-img"><img src="/images/zinnia.jfif" alt="Zinnia Nandy" /></div>
+                                        <div className="rec-img"><img src={zinnia} alt="Zinnia Nandy" /></div>
                                         <div className="rec-details">
                                             <h5>Zinnia Nandy</h5>
                                             <p>User Experience Manager</p>

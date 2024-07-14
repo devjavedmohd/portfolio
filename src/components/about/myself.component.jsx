@@ -1,16 +1,20 @@
+import profilePic from '../../assets/images/android-chrome-512x512.png';
+
 import './myself.component.scss';
 
 const MySelf = () => {
     return (
-        <div class="about-content">
-            <div class="pic-about">
-                <div class="pic"><img src="/images/android-chrome-512x512.png" alt="pic"/></div>
+        <div className="myself about-content">
+            <div className="pic-about">
+                <div className="pic"><img src={profilePic} alt="pic" /></div>
             </div>
-            <div class="about-details">
-                <div class="title"><span>Hi I'm,</span> Mohammad Javed</div>
-                <div class="about-more">
-                    <span>I born in a small village in the Indian District Mewat. I did my primary education in the village and move to town for secondary education. After completing, my school education move to college did a diploma in 3D animation, but I found the software tech industry more interesting according to the 3D. So start self-learning. Then completed my graduation with Bachelors's in Computer Science. And from here my journey started towards tech.</span><br /><br />
-                    <span>I started my career as a graphic designer and continues grow my skills move step by step. I love to learn trending technology and grow my self continuously.</span>
+            <div className="about-details">
+                <div className="title"><span>Hi I'm,</span> Mohammad Javed</div>
+                <div className="about-more">
+                    <span className='bottom-space'>Hi, I'm Mohammad Javed. I was born in a small village in the Mewat District of India. My journey in education began in the village, where I completed my primary schooling before moving to town for secondary education.</span>
+                    <span className='bottom-space'>Initially, I pursued a diploma in 3D animation, but my fascination with the software technology industry led me to pivot towards self-learning. Subsequently, I completed my Bachelor's degree in Computer Science, marking the beginning of my journey into the tech world.</span>
+                    <span className='bottom-space'>I kickstarted my career as a graphic designer and gradually honed my skills step by step. I have a passion for learning emerging technologies and continuously evolving myself.</span>
+                    <span className='bottom-space'>Currently, I am pursuing my Master's degree in Data Science and Analytics at Royal Holloway, University of London, UK, furthering my knowledge and expertise in this rapidly growing field.</span>
                 </div>
             </div>
         </div>
