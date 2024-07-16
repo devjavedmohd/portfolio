@@ -1,4 +1,4 @@
-import profilePic from '../../../assets//images/android-chrome-512x512.png'
+import profilePic from '../../../assets/images/android-chrome-512x512.png'
 import './hero.component.scss'
 
 const About = () => {
